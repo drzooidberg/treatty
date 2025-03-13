@@ -2,7 +2,7 @@
 # hackterm.sh - Script para configurar la terminal para laboratorios de hacking
 # Uso: ./hackterm.sh o source hackterm.sh
 
-echo "[+] Iniciando configuración de terminal para laboratorios de hacking..."
+echo "[+] Tratando la terminal..."
 
 # Iniciar script para grabar la sesión
 script /dev/null -c bash &
@@ -27,6 +27,6 @@ reset xterm
 export TERM=xterm
 export SHELL=/bin/bash
 
-echo "[+] Terminal configurada correctamente para laboratorios de hacking"
+echo "[+] Terminal tratada correctamente"
 echo "[+] Tipo de terminal: $TERM"
 echo "[+] Shell: $SHELL"
